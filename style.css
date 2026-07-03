@@ -65,3 +65,11 @@ body{
 .join-btn:hover{
     background-color: #fc6c0d;
 }
+.s1{
+    background-image: url(Images/1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 700px;
+
+}

@@ -145,9 +145,35 @@ body{
     color: whitesmoke;
 }
 .about-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
     align-items: center;
-    height: 310px;
+    height: 300px;
+}
+.abt-box1{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 350px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.bl1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #f45361;
+    text-shadow: 3px 3px 12px rgba(121, 50, 50, 0.8);
+}
+.bl2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #9d8080; 
+    text-shadow: 3px 3px 12px rgba(121, 50, 50, 0.8);
+}
+.bl3{
+    font-size: medium;
 }

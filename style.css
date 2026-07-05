@@ -19,6 +19,7 @@ html{
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    margin-bottom: 29px;
     width: 98%;
     padding: 1rem;  
     background:
@@ -149,11 +150,11 @@ html{
     color: whitesmoke;
 }
 .about-section{
+    height: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-between;
     align-items: center;
-    height: 300px;
     margin-bottom: 50px;
 }
 .abt-box1{
@@ -256,4 +257,13 @@ html{
 }
 .pbl2{
     font-size: 19px;
+}
+.price-section{
+    height: 500px;
+}
+.plan-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;   
 }

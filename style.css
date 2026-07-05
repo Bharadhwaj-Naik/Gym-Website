@@ -265,5 +265,94 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;   
+    align-items: first baseline;  
+    margin-top: 19px; 
+}
+.plan-box1{
+    background-color: #101010;
+    padding: 60px;
+}
+.plan-box2{
+    background-color: #101010;
+    padding: 50px;
+}
+.plan-box3{
+    background-color: #101010;
+    padding: 40px;
+}
+.priceline1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: chocolate;
+}
+.pricel1{
+    font-size: 25px;
+    color: cornflowerblue;
+}
+.pricel2{
+    font-size: 20px;
+}
+.amount{
+    font-size: 36px;
+    margin-left: -30px;
+    color: crimson;
+}
+.access-lines{
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+.Joinbtn1{
+    background-color: #161616;
+    color: #272c9a;
+    border: none;
+    border-width: 2px;
+    border-radius: 7px;
+    padding: 9px 15px;
+    margin-top: 21px;
+    border-style: solid;
+    border-color: wheat;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
+}
+.Joinbtn1:hover{
+    color: wheat;
+    background-color: #272c9a;
+}
+.Joinbtn2{
+    background-color: #161616;
+    color: #272c9a;
+    border: none;
+    border-width: 2px;
+    border-radius: 7px;
+    padding: 9px 15px;
+    margin-top: 11px;
+    border-style: solid;
+    border-color: wheat;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
+}
+.Joinbtn2:hover{
+    color: wheat;
+    background-color: #272c9a;
+}
+.Joinbtn3{
+    background-color: #161616;
+    color: #272c9a;
+    border: none;
+    border-width: 2px;
+    border-radius: 7px;
+    padding: 9px 15px;
+    margin-top: 6px;
+    border-style: solid;
+    border-color: wheat;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
+}
+.Joinbtn3:hover{
+    color: wheat;
+    background-color: #272c9a;
 }

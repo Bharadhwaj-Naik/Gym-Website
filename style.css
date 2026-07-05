@@ -228,4 +228,14 @@ body{
     flex-direction: row;
     justify-content: space-evenly   ;
     align-items: center;
+    margin-top: 19px;
+    margin-bottom: 109px;
+}
+.pbox{
+    margin-right: 29px;
+}
+.photo{
+    height: 200px;
+    border-radius: 19px;
+    width: 200px;
 }

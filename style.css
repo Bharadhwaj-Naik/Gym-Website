@@ -30,7 +30,7 @@ body{
         #161616,
         #050505
     );
-    height : 70px ;
+    height : 60px ;
 
 }
 
@@ -52,7 +52,7 @@ body{
 }
 .nav-tag:active{
     background-color: whitesmoke;
-    color: 272c9a;
+    color: #272c9a;
     border-radius: 5px;
 }
 .join-btn{
@@ -233,9 +233,23 @@ body{
 }
 .pbox{
     margin-right: 29px;
+    margin-left: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .photo{
     height: 200px;
-    border-radius: 19px;
+    border-radius: 29px;
     width: 200px;
+}
+.PBLine1{
+    color: #f45361;
+    font-size: 29px;
+    margin-bottom: 9px;
+    font-weight: 700;
+}
+.pbl2{
+    font-size: 19px;
 }

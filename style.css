@@ -10,6 +10,9 @@ body{
     #111111 45%,
     #000000 100%);
 }
+html{
+    scroll-behavior: smooth;
+}
 .header-section{
     display: flex;
     flex-direction: row;
@@ -44,6 +47,7 @@ body{
     cursor: pointer;
     text-align: center;
     padding: 8px; 
+    text-decoration: none;
     margin-right: 10px;
 }
 .nav-tag:hover{

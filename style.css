@@ -357,15 +357,15 @@ html{
     background-color: #272c9a;
 }
 .contact-section{
+    margin-bottom: 1000px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 100px;
 }
 .form-box{
     font-size: 22px;
     padding: 50px  80px;
-    margin-left: -170px;
+    margin-left: -60px;
     background-color: #383737;
     border-radius: 30px;
 }
@@ -429,4 +429,31 @@ html{
 .send-btn:hover{
     background-color: #3e2626;
     color: #2d37f5;
+}
+.adress-box{
+    padding: 50px  80px;
+    background-color: #1e1a1a;
+    height: 370px;
+    border-radius: 30px;
+    margin-right: -60px;
+}
+.adl1{
+    font-size: 27px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    width: 380px;
+}
+.adl2{
+    font-size: 29px;
+    margin-bottom: 30px;
+    width: 380px;
+}
+.adl3{
+    font-size: 32px;
+    margin-bottom: 30px;
+    width: 380px;
+}
+.adl4{
+    font-size: 32px;
+    margin-bottom: 30px;
 }

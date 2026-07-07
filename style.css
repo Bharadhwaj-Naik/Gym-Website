@@ -357,7 +357,7 @@ html{
     background-color: #272c9a;
 }
 .contact-section{
-    margin-bottom: 1000px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -456,4 +456,60 @@ html{
 .adl4{
     font-size: 32px;
     margin-bottom: 30px;
+}
+.footer-section{
+    margin-top: 60px;
+    padding: 50px 80px;
+    background: linear-gradient(to right, #0a0a0a, #1a1a1a);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 2px solid #f45361;
+}
+
+.fbox1{
+    width: 55%;
+}
+
+.fli1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #f45361;
+    margin-bottom: 20px;
+}
+
+.fli2{
+    font-size: 18px;
+    color: #cfcfcf;
+    line-height: 1.8;
+    width: 90%;
+    margin-bottom: 35px;
+}
+
+.fb{
+    display: inline-block;
+    background: #202020;
+    padding: 18px 28px;
+    margin-right: 18px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.fb:hover{
+    transform: translateY(-6px);
+    background: #2d2d2d;
+    box-shadow: 0 0 18px rgba(244,83,97,.35);
+}
+
+.fbl1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #00fff7;
+}
+
+.fbl2{
+    margin-top: 6px;
+    font-size: 16px;
+    color: #d0d0d0;
 }

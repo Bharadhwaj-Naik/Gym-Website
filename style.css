@@ -73,7 +73,7 @@ html{
 }
 .join-btn:hover{
     background-color: #7ff45f;
-    color: whitesmoke;
+    color: rgb(255, 13, 13);
 }
 .hero-section{
     height: 800px;

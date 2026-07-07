@@ -513,3 +513,27 @@ html{
     font-size: 16px;
     color: #d0d0d0;
 }
+
+.fbox2{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer-nav .nav-tag{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.footer-nav .nav-tag:hover{
+    color: #00fff7;
+    transform: translateX(8px);
+}
